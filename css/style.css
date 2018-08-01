@@ -1,0 +1,615 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#666;
+}
+	
+#background {
+	padding-bottom: 30px;
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position: top;
+	background-color:#666;
+}
+
+#wrapper {
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+ /* HEADER */
+ 
+header {
+	width: 960px;
+	height: 300px;
+}
+header a img {
+	margin-top: 71px;
+	margin-left: 31px;
+}
+
+/* NAVI */
+
+nav {
+	width: 960px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 0 0 10px #FFF;
+}
+
+nav ul {
+	margin-left: -32px;
+	margin-top: -5px;
+}
+
+nav ul li {
+	display: inline-block;
+	width: 186px;
+	height: 44px;
+	background-image: url(../img/menu_button_off.png);
+	margin-top: 3px;
+	vertical-align: top;
+	
+}
+
+nav ul li:hover {
+	display: inline-block;
+	width: 186px;
+	height: 44px;
+	background-image: url(../img/menu_button_on.png);	
+}
+
+nav ul li a {
+	display: block;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	color: #FFF;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+nav ul li a:hover {
+	/* color: #FEFF35; */
+}
+
+ul.menu_list {
+	width: 130px;
+	height: auto;
+	min-height: 100px;
+	background-color: rgba(148,193,32,0.9);
+	margin-left: 8px;
+	margin-top: 0px;
+	display: none;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px #000;
+}
+
+ul.menu_list li {
+	background-image: none;
+	margin-left: -20px;
+	text-align: left;
+	margin-bottom: -20px;
+}
+
+ul.menu_list li:hover {
+	background-image: none;
+}
+
+ul.menu_list li a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #FFF;
+	text-align: left;
+}
+
+ul.menu_list li a:hover {
+	text-decoration: underline;
+}
+
+/* SECTION LEFT */
+
+section#left {
+	width: 200px;
+	height: auto;
+	min-height: 880px;
+	float: left;
+	margin-bottom: 10px;
+	margin-top: -7px;	
+}
+
+div#articles {
+	height: auto;
+	min-height: 340px;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 0 0 10px #FFF;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	margin-bottom: -8px;
+}
+
+.bar {
+	width: 200px;
+	height: 30px;
+	border-radius: 10px;
+	background-image:url(../img/aside_bar.png);
+	box-shadow: 1px 1px 2px #000;
+}
+
+.bar p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+	-webkit-text-stroke: 1px #000;
+	margin-left: 40px;
+	padding-top: 3px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+div#articles ul {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	list-style-type: disc;
+	color: #93c01d;
+	padding-left: 30px;
+	overflow: auto;
+}
+
+div#articles ul li a {
+	text-decoration: none;
+	color: #000;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+div#articles ul li a:hover {
+	color: #94c120;
+}
+
+a#archive {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bolder;
+	font-size: 12px;
+	color: #94c120;
+	padding-left: 15px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+a#archive:hover {
+	color: yellow;
+}
+
+div#derby {
+	height: auto;
+	min-height: 256px;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 0 0 10px #FFF;
+	padding-bottom: 10px;
+	margin-top: 0px;
+}
+
+div.derby {
+	width: 180px;
+	height: 95px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	border: 1px solid #000;
+	padding: 2px;
+	box-shadow: 1px 1px 1px #000;
+}
+
+div.derby p {
+	text-align: center;
+	line-height: 2px;
+	margin-top: 2px;
+	font-size: 12px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+}
+
+div.derby p img {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 3px;
+}
+
+div#video {
+	height: auto;
+	min-height: 255px;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 0 0 10px #FFF;
+	margin-top: -10px;
+	padding-bottom: 10px;
+}
+
+div#video ul {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	list-style-type: disc;
+	color: #93c01d;
+	padding-left: 30px;
+}
+
+div#video ul li a {
+	text-decoration: none;
+	color: #000;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+div#video ul li a:hover {
+	color: #94c120;
+}
+
+a#more {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bolder;
+	font-size: 12px;
+	color: #94c120;
+	padding-left: 15px;
+	text-shadow: 1px 1px 1px #000;
+	vertical-align: bottom;
+}
+
+a#more:hover {
+	color: yellow;
+}
+
+/* SECTION MIDDLE */
+
+section#middle {
+	width: 540px;
+	height: auto;
+	min-height: 906px;
+	float: left;
+	margin: 10px;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 0 0 10px #FFF;
+}
+
+article.main {
+	width: 510px;
+	height: auto;
+	min-height: 255px;
+	max-height: 300px;
+	padding: 10px 15px;
+	margin-top: 0px;
+}
+
+article.main h1 {
+	clear: both;
+}
+
+article.main h1 a {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	color: #94c120;
+	text-shadow: 1px 1px 1px #000;
+}
+
+article.main h1 a:hover {
+	color: yellow;
+}
+
+div.main_left {
+	width: 110px;
+	float: left;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+	line-height: 16px;
+}
+
+img.article_img{
+	width: 100px;
+	height: 100px;
+	box-shadow: 1px 1px 1px #000;
+}
+
+div.main_right {
+	width: 400px;
+	height: 230px;
+	overflow: hidden;
+	float: right;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: -15px;
+}
+
+
+/* SECTION RIGHT */
+
+section#right {
+	width: 200px;
+	height: auto;
+	min-height: 880px;
+	float: right;
+	margin-top: -7px;
+	margin-bottom: 10px;
+}
+
+div#table {
+	height: auto;
+	min-height: 430px;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 0 0 10px #FFF;
+	padding-bottom: 5px;
+	margin-top: -18px;	
+}
+
+div#table ul {
+	width: 185px;
+	height: 12px;
+	margin-top: 10px;
+	margin-left: -32px;
+	margin-bottom: 10px;
+}
+
+div#table ul li {
+	display: inline-block;
+	width: 55px;
+	height: 12px;
+	background-image: url(../img/table_button_off.png);
+	background-position: center;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px #000;
+	margin-left: 3px;
+	cursor: pointer;
+}
+
+div#table ul li:hover {
+	background-image: url(../img/table_button_on.png);
+}
+
+div#table ul li a{
+	display: block;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 9px;
+	text-align: center;
+	color: #FFF;
+}
+.league_tab {
+	margin: 10px;
+	margin-top: 15px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+	box-shadow: 1px 1px 1px #000;
+}
+
+.league_tab th{ 
+	background-color: #94c120;
+	color: #000;
+	text-align: center;
+	border-right: 1px solid #666;
+	border-left: 1px solid #666;
+	border-top: 1px solid #666;
+}
+
+.league_tab td {
+	border: 1px solid #666;
+	text-align: center;
+}
+
+.league_tab tr:nth-child(odd) {
+	background-color: rgba(148,193,32,0.2);
+}
+
+.league_tab tr:nth-child(even) {
+	background-color: rgba(255,255,255,0.2);
+}
+
+#bbva {
+	display: none;
+}
+
+#bundesliga {
+	display: none;
+}
+
+div#scorers {
+	height: auto;
+	min-height: 242px;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 0 0 10px #FFF;
+	margin-top: -28px;
+	padding-bottom: 5px;
+}
+
+div#scorers ul {
+	width: 185px;
+	height: 15px;
+	margin-top: 10px;
+	margin-left: -32px;
+	margin-bottom: 10px;
+}
+
+div#scorers ul li {
+	display: inline-block;
+	width: 86px;
+	height: 15px;
+	background-image: url(../img/scorers_button_off.png);
+	background-position: center;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px #000;
+	cursor: pointer;
+	margin-left: 4px;
+}
+
+div#scorers ul li:hover {
+	background-image: url(../img/scorers_button_on.png);
+}
+
+div#scorers ul li a{
+	display: block;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	text-align: center;
+	color: #FFF;
+	padding: 2px;
+}
+
+.scorers_tab {
+	margin: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+	box-shadow: 1px 1px 1px #000;
+}
+
+.scorers_tab th{ 
+	background-color: #94c120;
+	color: #000;
+	text-align: center;
+	border-right: 1px solid #666;
+	border-left: 1px solid #666;
+	border-top: 1px solid #666;
+}
+
+.scorers_tab td {
+	border: 1px solid #666;
+	text-align: center;
+}
+
+.scorers_tab tr:nth-child(odd) {
+	background-color: rgba(148,193,32,0.2);
+}
+
+.scorers_tab tr:nth-child(even) {
+	background-color: rgba(255,255,255,0.2);
+}
+
+#el {
+	display: none;
+}
+
+div#photo {
+	height: auto;
+	min-height: 192px;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 0 0 10px #FFF;
+	margin-top: -5px;
+	padding-bottom: 10px;
+}
+
+div#photo h3 {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	text-decoration: underline;
+	color: #94c120;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div#photo img {
+	display: block;
+	width: 180px;
+	height: 100px;
+	margin: 0 auto;
+	box-shadow: 1px 1px 2px #000;
+}
+
+/* FOOTER */
+
+footer {
+	display: block;
+	width: 960px;
+	height: 50px;
+	clear: both;
+	background-image:url(../img/footer.png);
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px #000;
+}
+
+footer p {
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+	color: #FFF;
+	display: block;
+	padding: 15px;
+	text-shadow: 1px 1px 2px #000;
+}
+
+footer p a {
+	text-decoration: none;
+	color: #FCAB03;
+}
+
+footer p a:hover {
+	color: yellow;
+}
+
+/* ARCHIVE */
+
+ul.archive {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	list-style-type: disc;
+	color: #93c01d;
+	padding-left: 30px;
+}
+
+ul.archive li a {
+	text-decoration: none;
+	color: #000;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+ul.archive li a:hover {
+	color: #94c120;
+}
+
+/* NEWS */
+
+a.back {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bolder;
+	font-size: 12px;
+	color: #94c120;
+	padding-left: 15px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+a.back:hover {
+	color: yellow;
+}
+
+/* VIDEO */
+
+div#video_content {
+	width: auto;
+	max-width: 500px;
+	height: auto;
+	max-height: 500px;
+	margin: 20px auto;
+	
+}
+
+div#video_content h1 {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bolder;
+	font-size: 18px;
+	color: #94c120;
+	text-shadow: 1px 1px 1px #000;
+}
